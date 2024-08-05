@@ -83,12 +83,31 @@ img {
     height: 550px;
 }
 
+.hero2 {
+    margin-bottom:0px;
+}
+
+.hero2 .container {
+    background-size: contain;
+    background-position: center bottom;
+    height: 300px;
+}
+
 
 .hero .hero-content {
     width: 70%
 }
 
+.hero2 .hero-content {
+    width: 70%
+}
+
 .hero .hero-text {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.hero2 .hero-text {
     width: 70%;
     margin-bottom: 20px;
 }
@@ -284,7 +303,7 @@ img {
 .container-sm {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 1px 15px;
 }
 
 
